@@ -1,7 +1,5 @@
 package example.designpatterns.shape;
 
-import javax.management.RuntimeErrorException;
-
 import example.designpatterns.Props;
 
 public class ShapeFactory {
