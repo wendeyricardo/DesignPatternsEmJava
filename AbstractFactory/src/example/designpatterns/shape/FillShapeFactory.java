@@ -5,9 +5,9 @@ public class FillShapeFactory extends ShapeAbstractFactory {
 	@Override
 	public Shape newShape(String type) {
 		if (type.equals("circle")) {
-			return new NotFillCircle();
+			return new FillCircle();
 		} else if (type.equals("square")) {
-			return new NotFillSquare();
+			return new FillSquare();
 		}
 		return null;
 	}

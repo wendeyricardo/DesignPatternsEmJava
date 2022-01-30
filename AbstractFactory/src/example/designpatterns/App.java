@@ -13,8 +13,8 @@ public class App {
 		Window w = new Window("Shapes", 300, 300);
 		w.show();
 		
-		ShapeAbstractFactory factory = ShapeFactoryProducer.getFactory(false);
-		Shape shape = factory.newShape("circle");
+		ShapeAbstractFactory factory = ShapeFactoryProducer.getFactory(true);
+		Shape shape = factory.newShape("square");
 		
 		w.drawShape(shape);
 	}
